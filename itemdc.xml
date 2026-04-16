@@ -1,0 +1,35 @@
+<!-- root e namespaces -->
+<metadata
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:dcterms="http://purl.org/dc/terms/">
+
+  <dc:title>Monumento funebre di Alberto Pio</dc:title>
+  <dc:creator rdf:resource="https://viaf.org/viaf/32269829/">Rustici, Gianfrancesco</dc:creator>
+  <dc:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85120150">Monumenti sepolcrali</dc:subject>
+  <dc:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh85119107">Scultura rinascimentale</dc:subject>
+  <dc:subject rdf:resource="https://viaf.org/viaf/122252078/">Pio di Savoia, Alberto III</dc:subject>
+  <dc:description>Statua funeraria in bronzo raffigurante Alberto III Pio di Savoia, originariamente collocata nel Convento dei Cordiglieri a Parigi.</dc:description>
+  <dc:publisher rdf:resource="https://www.wikidata.org/wiki/Q19675">Musée du Louvre</dc:publisher>
+  <dc:coverage rdf:resource="http://vocab.getty.edu/page/tgn/7008038">Parigi</dc:coverage>
+  <dcterms:isPartOf rdf:resource="https://collections.louvre.fr/">Collezioni del Louvre</dcterms:isPartOf>
+  <dc:identifier xsi:type="dcterms:URI">https://matteobertacchini.github.io/PIO-SIGNORI-DI-CARPI/item.html</dc:identifier>
+  <dcterms:date xsi:type="dcterms:W3CDTF">1535</dcterms:date>
+  <dc:format xsi:type="dcterms:IMT">text/html</dc:format>
+  <dcterms:medium rdf:resource="http://vocab.getty.edu/aat/300010957">Bronzo con tracce di doratura</dcterms:medium>
+  <dcterms:extent>Altezza 0,56 m; Larghezza 1,67 m; Profondità 0,654 m</dcterms:extent>
+</metadata>
+
+
+
+
+
+
+
+
+
+
+
+
+

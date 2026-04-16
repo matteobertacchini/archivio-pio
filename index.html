@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Sito che raccoglie opere d'arte, scritti e codici legati alla figura di Alberto III Pio di Savoia" />
+	<meta name="keywords" content="Pio, Carpi, Savoia, Rinascimento, Alberto" />
+	<meta name="author" content="Matteo Bertacchini" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<!-- metadati DC -->
+  <meta name="DC.Title" content="Alberto Pio, Signore di Carpi">
+  <meta name="DC.Creator" content="Matteo Bertacchini">
+  <meta name="DC.Subject" content="L'eredità culturale di Alberto Pio, scritti, arte, codici">
+  <meta name="DC.Description" content="Raccolta di opere che testimoniano il mecenatismo di Alberto Pio e la sua centralità all'interno della temperie culturale e politica del Rinascimento emiliano">
+  <meta name="DC.Publisher" content="Università di Bologna">
+  <meta name="DC.Contributor" content="Corso DIGITAL HUMANITIES">
+  <meta name="DC.Date" content="14/04/2026">
+  <meta name="DC.Type" content="Archivio digitale">
+  <meta name="DC.Format" content="HTML/CSS/JS">
+  <link rel="DC.Identifier" href="https://matteobertacchini.github.io/PIO-SIGNORI-DI-CARPI/">
+  <meta name="DC.Language" content="it">
+  <meta name="DC.Relation" content="Estense Digital Library">
+  <meta name="DC.Rights" content="Licenza Creative Commons BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <title> Alberto Pio: Archivio digitale </title>
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="img/favicon.svg">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="stile.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-light"> <!-- Evita il problema del footer -->
+	<nav class="navbar navbar-expand-sm custom-navbar">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse justify-content-center" id="menuPrincipale">
+        <ul class="navbar-nav m-2">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Storia</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Archivio</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="archivio-copia.html">Archivio completo</a></li>
+                <li><a class="dropdown-item" href="arte.html">Arte</a></li>
+                <li><a class="dropdown-item" href="corrispondenza.html">Corrispondenza</a></li>
+                <li><a class="dropdown-item" href="biblioteca.html">Biblioteca</a></li>
+              </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Esplora</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Persone</a></li>
+                <li><a class="dropdown-item" href="#">Date</a></li>
+                <li><a class="dropdown-item" href="#">Luoghi</a></li>
+              </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex ms-sm-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Cerca">
+          <button class="btn btn-primary" type="submit">Cerca</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <main class="flex-grow-1"> <!-- Evita il problema del footer -->
+    <section class="hero-section d-flex justify-content-center align-items-center text-center text-white">
+     <div class="container">
+       <h1 class="display-3 fw-bold mt-5">Alberto Pio, signore di Carpi</h1>
+       <a href="#" class="btn btn-primary btn-lg mt-4">Leggi la storia di Alberto Pio</a>
+     </div>
+    </section>
+
+    <section class="bio-section py-5">
+     <div class="container">
+       <div class="row justify-content-center">
+         <div class="col-lg-8 text-center">
+           <h2 class="fw-bold mb-3">Protagonista del Rinascimento emiliano</h2>
+           <p class="lead">
+             Alberto III Pio (Carpi, 23 luglio 1475 – Parigi, 8 gennaio 1531) è stato l'ultimo signore e poi conte di Carpi dal 1477. Educato da Aldo Manuzio, ebbe contatti con i personaggi di spicco del suo tempo, dai sovrani agli artisti ed intellettuali. La sua eredità culturale ha lasciato tracce non solo in Italia ma anche al di fuori dei suoi confini.
+           </p>
+         </div>
+       </div>
+     </div>
+    </section>
+
+    <section id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/palazzo.jpg" class="d-block w-100" alt="Palazzo">
+          <div class="carousel-caption">
+            <h2>Il palazzo dei Pio</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/cortile.jpg" class="d-block w-100" alt="Cortile">
+          <div class="carousel-caption">
+            <div class="bg dark bg-opacity-50">
+              <h2>Il cortile interno</h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/sala-dei-mori.png" class="d-block w-100" alt="Sala dei Mori">
+          <div class="carousel-caption d-block mb-4">
+            <a href="https://www.palazzodeipio.it/imusei/Sezione.jsp?idSezione=31" class="btn btn-primary shadow">Prenota la visita al Palazzo dei Pio</a>
+          </div>
+        </div>
+      </div>
+        
+      <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </section>
+          
+    <section class="features-section py-5">
+      <div class="container">
+        <div class="row g-5">
+
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h2 class="card-title fw-bold">Alberto Pio nell'arte</h2>
+                <p class="card-text">Committente e soggetto di opere d'arte inestimabili.</p>
+                <a href="arte.html" class="btn btn-primary">Ammira le opere</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h2 class="card-title fw-bold">Corrispondenza</h2>
+                <p class="card-text">Politico e intellettuale in dialogo con il mondo dell'epoca.</p>
+                <a href="corrispondenza.html" class="btn btn-primary">Leggi le lettere</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h2 class="card-title fw-bold">Biblioteca</h2>
+                <p class="card-text">Ebbe come precettore Aldo Manuzio, studiò greco e fu estimatore della cultura classica, ordinando la copiatura di numerosi manoscritti.</p>
+                <a href="biblioteca.html" class="btn btn-primary">Consulta i codici</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+  </main>
+    
+  <footer>
+    <div class="container-fluid background-blue py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-2">
+            <h5 class="text-uppercase fw-bold text-white">Alberto Pio: Archivio digitale</h5>
+            <div class="row mt-3">
+              <div class="col-sm-6">
+                <ul class="list-unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Storia</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="list-unstyled">
+                  <li><a href="#">Archivio</a></li>
+                  <li><a href="#">Bibliografia</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-2">
+            <h5 class="text-uppercase fw-bold text-white">Risorse e contatti</h5>
+            <ul class="list-unstyled mt-3 d-flex gap-3">
+              <li><a href="#">Contatti</a></li>
+              <li><a href="#">Social</a></li>
+              <li><a href="#">Visita Carpi</a></li>
+            </ul>
+            <p class="mt-3 text-white small">
+              Un progetto dedicato alla valorizzazione della figura di Alberto Pio e del Rinascimento carpigiano.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid background-gray">
+      <p class="mb-0 py-2 text-center small">
+        © 2026 Matteo Bertacchini - Corso di DH.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
+</body>
+
+</html>
+
+
+
+
+
+
+  
+      
+      
+
+
+
+
+

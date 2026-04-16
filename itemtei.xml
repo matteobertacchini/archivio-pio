@@ -1,0 +1,79 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+   <!-- Prima parte header -->
+   <fileDesc>
+      <titleStmt>
+         <title>Lettera di Alberto Pio a Vit Fürst (4 febbraio 1513)</title>
+         <author>Alberto Pio III</author>
+      </titleStmt>
+      <editionStmt>
+         <edition n="1.0">
+            <title>Versione 1.0</title>
+            <date when="2026">2026</date>
+         </edition>
+         <respStmt>
+            <name>Matteo Bertacchini</name>
+            <resp>Codifica TEI</resp>
+         </respStmt>
+      </editionStmt>
+      <publicationStmt>
+         <publisher>Progetto Digital Humanities</publisher>
+      </publicationStmt>
+      <sourceDesc>
+         <p>Testo tratto dall'edizione digitale della lettera a cura dell'Estense Digital Library</p>
+      </sourceDesc>
+   </fileDesc>
+   <!-- Seconda parte header -->
+   <encodingDesc>
+      <p>Testo codificato secondo lo standard TEI P5, utilizzando editor Sublime Text.</p>
+   </encodingDesc>
+   <!-- Terza parte header -->
+   <profileDesc>
+      <langUsage>
+         <language ident="it">Italiano</language>
+         <language ident="la">Latino</language>
+      </langUsage>
+      <textClass>
+         <keywords scheme="#free">
+            <term>Artiglieria</term>
+            <term>Armi leggere</term>
+            <term>Conflitti locali</term>
+         </keywords>
+      </textClass>
+   </profileDesc>
+</teiHeader>
+
+<text>
+   <body>
+      <div type="letter">
+         <opener>
+            <salute> <foreign xml:lang="la"> Mag. <hi rend="sup">ce</hi> Dne tanq fr hon :</foreign> </salute>
+         </opener>
+         <p>
+            In <placeName>Saxolo</placeName> sono alcuni miei pezi de artigliaria legiera, liquali 
+            in le discordie nostre de <placeName>Carpi</placeName>, furono tolti in casa mia, et portati lì, como è notissimo, 
+            et se ne po per molti fare fede alla <choice><abbr>.S.V.</abbr><expan>Signoria Vostra</expan></choice> 
+            Et benché più volte habia pensato de rehaverli, <foreign xml:lang="la"> tm </foreign> per le cose accadute, et altre mie occupatione non li ho potuto
+            attendere, hora havendoni gran bisogno per <placeName>Carpi</placeName>, elquale ni è in tutto privo,
+            prego la <choice><abbr>.S.V.</abbr><expan>Signoria Vostra</expan></choice> vogli essere contenta, essendoli facto fede che lartigliaria sia 
+            la mia, de restituirmela, et mi farà singulare piacere, né per questo farà 
+            iniuria a persona, et se ben la volesse dare <placeName>Saxolo</placeName> ad altri, 
+            o al <choice><abbr>s.re</abbr><expan>signore</expan></choice> <persName><choice><abbr>Alex.ro</abbr><expan>Alexandro</expan></choice></persName>,
+            per questo la <choice><abbr>.S.V.</abbr><expan>Signoria Vostra</expan></choice> non potrà haver carrico, per essere dicta artigliaria 
+            la mia, né ad epsa da alcuno è stata consignata, alaquale facendomi questo 
+            piacere non serò ingrato, como più amplamente li dirà el mio.
+         </p>
+         <closer>
+            <salute>Et a ley <foreign xml:lang="la"> ex corde </foreign> mi raccomando.</salute> 
+            <dateline>In <placeName>Roma</placeName> a dì <date when="1513-02-04">4 de febraro 1513</date>.</dateline>
+            <signed> <foreign xml:lang="la"> bonus Frater <persName><choice><abbr>.A.</abbr><expan>Albertus</expan></choice></persName> <placeName>Carpsi</placeName> </foreign></signed>
+         </closer>
+      </div>
+   </body>
+</text>
+</TEI>
+
+
+
+
+
